@@ -1,0 +1,5 @@
+num, nums = map(int, input().split())
+print(num+nums)
+print(num-nums)
+print(num*nums)
+print(num//nums)
