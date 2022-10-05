@@ -1,0 +1,6 @@
+fst = int(input())
+sed = input()
+print(fst*int(sed[2]))
+print(fst*int(sed[1]))
+print(fst*int(sed[0]))
+print(fst*int(sed))
