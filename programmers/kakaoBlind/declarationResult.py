@@ -8,5 +8,7 @@ def solution(id_list, report, k):
             if j == temp:
                 duplicate[idx] = +1
                 break
-
+    for cnt in len(duplicate):
+        if cnt >= k:
+            id_list[cnt]
     return answer
