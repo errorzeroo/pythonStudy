@@ -21,3 +21,12 @@ def solution(s):
                 return True
             else:
                 return False
+
+'''
+첫 괄호가 )로 시작 하면 false
+끝 괄호가 (로 끝나면 false
+괄호의 개수가 홀수이면 false
+왼쪽 ( 오른쪽 )로 나눠서 for문으로 개수를 세는데
+왼쪽 보다 오른쪽이 크면 break 후 false
+for문이 다 돌고 개수가 같으면 true 다르면 false 
+'''
