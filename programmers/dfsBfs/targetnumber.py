@@ -17,15 +17,15 @@ def dfs(idx, current, numbers, target):
 
 '''
 count는 최종 값
-current는 최종값을 구하기 위한 변수
+current는 최종 값을 구하기 위한 변수
 numbers는 주어진 리스트(배열)
 target은 주어진 목표 값
 idx는 numbers의 인덱스
 
 dfs 깊이 우선 탐색 알고리즘
 
-if 코트 해석: idx가 numbers 길이와 같아질 때 인덱스번호가 초과될때,
-crrent와 target이 같으면 최종 count값을 올린다
-인덱스 번호가 처음부터 돌때 않으면,
+if 코트 해석: idx가 numbers 길이와 같아질 때 인덱스 번호가 초과될 때,
+current와 target이 같으면 최종 count 값을 올린다
+인덱스 번호(idx)가 number 길이와 같지 않으면,
 인텍스 번호를 하나 올리고 current에 numbers의 인덱스 번호 값을 더하거나 빼준다
 '''
